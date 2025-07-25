@@ -76,11 +76,11 @@ for i in range(10):
         wardeck.addcard(computerwar)
         if playerwar.value<computerwar.value:
             print("Computer Won The War!")
-            for i in range(8):
+            for i in range(10):
                 computerdeck.addcard(wardeck.drawcard())
         if playerwar.value>computerwar.value:
             print("Player Won The War!")
-            for i in range(8):
+            for i in range(10):
                 playerdeck.addcard(wardeck.drawcard())
     print(playerdeck.getlength())
     print(computerdeck.getlength())
